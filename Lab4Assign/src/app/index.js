@@ -55,9 +55,9 @@ const Login = () => {
                 <MyButton
                     text="Login"
                     mode="contained"
-                    buttonColor="#FA812F" // Background color for the button
-                    textColor="#FFFFFF" // Text color
-                    style={[loginStyle.button]} // Apply additional styles like margin
+                    buttonColor="#FA812F"
+                    textColor="#FFFFFF"
+                    style={[loginStyle.button]}
                     action={() => router.replace('dashboard')}
                 />
             </View>
@@ -66,10 +66,10 @@ const Login = () => {
                 <MyButton
                     text="Register"
                     mode="outlined"
-                    textColor="#000000" // Text color
+                    textColor="#000000"
                     style={[
                     loginStyle.button,
-                    { borderWidth: 2, borderColor: '#FA812F' }, // Custom border for outlined button
+                    { borderWidth: 2, borderColor: '#FA812F' },
                     ]}
                     action={() => router.push('register')}
                 />

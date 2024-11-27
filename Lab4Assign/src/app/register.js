@@ -69,7 +69,7 @@ const Register = () => {
                 mode="outlined"
                 style={[
                   regStyle.button,
-                  { borderWidth: 2, borderColor: '#FA812F' }, // Custom border for outlined button
+                  { borderWidth: 2, borderColor: '#FA812F' },
                 ]}
               />
             </View>

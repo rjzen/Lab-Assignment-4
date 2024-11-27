@@ -16,7 +16,7 @@ export default function DrawerContent(props) {
     const { top, bottom } = useSafeAreaInsets();
 
     return (
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, backgroundColor: '#FEF3E2' }}>
             <DrawerContentScrollView
                 {...props}
                 scrollEnabled={true}
@@ -30,7 +30,7 @@ export default function DrawerContent(props) {
                         paddingBottom: 20
                     }}
                 > 
-                    <Image source={require('../../assets/logo2.png')} style={{ alignSelf: 'center', height: 150, width: 150 }} /> 
+                    <Image source={require('../../assets/logo4.png')} style={{ alignSelf: 'center', height: 150, width: 150 }} /> 
                 </View>
                 <DrawerItemList {...props} />
                 <DrawerItem
