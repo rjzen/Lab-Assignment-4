@@ -76,7 +76,7 @@ export default function MessagingScreen() {
         data={allChats}
         renderItem={renderAllChats}
         keyExtractor={(item) => item.id}
-        scrollEnabled={false} // Prevent internal scrolling to work with ScrollView
+        scrollEnabled={false}
       />
     </ScrollView>
   );
